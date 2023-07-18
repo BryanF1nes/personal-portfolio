@@ -10,7 +10,7 @@ const Main = (props) => {
             <p>Where the passion begins!</p>
             <div className="icons">
                 <FaGoogle className="icon-pack" />
-                <FaGithub className="icon-pack"/>
+                <FaGithub className="icon-pack" />
                 <FaLinkedin className="icon-pack"/>
             </div>
         </div>
