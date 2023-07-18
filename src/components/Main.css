@@ -1,0 +1,56 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 500ms ease-out;
+  }
+  
+  .typewritter {
+    white-space: nowrap;
+    border-right: 3px solid rgb(255, 0, 242);
+    overflow: hidden;
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  p {
+    letter-spacing: 0.6rem;
+  }
+  
+  .dark {
+    background-color: rgb(28, 28, 28);
+    color: white;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 0, 242); }
+  }
+
+  /* Icons */
+  .icons {
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .icon-pack {
+    height: 24px;
+    width: 24px;
+    transition: transform 300ms ease-out;
+  }
+
+  .icon-pack:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
