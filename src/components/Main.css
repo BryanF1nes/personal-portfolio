@@ -1,5 +1,6 @@
 .main {
     height: 100vh;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +17,7 @@
       blink-caret .75s step-end infinite;
   }
   
-  p {
+  .main-p {
     letter-spacing: 0.6rem;
   }
   
@@ -53,4 +54,20 @@
   .icon-pack:hover {
     transform: scale(1.2);
     cursor: pointer;
+  }
+
+  a.icon-pack {
+    color: black;
+  }
+
+  .dark a.icon-pack {
+    color: white;
+  }
+
+  @media (max-width: 480px) {
+    .main-container {
+      text-align: center;
+    }
+    .main-container h1 {font-size: 24px;}
+    .main-container p {letter-spacing: 5px;}
   }

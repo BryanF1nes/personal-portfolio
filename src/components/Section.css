@@ -1,0 +1,32 @@
+.section-container {
+    height: 100vh;
+    transition: background-color 500ms ease-out;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* max-width: 50%; */
+    height: 100%;
+    gap: 10px;
+}
+
+.info-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.skill-list-info {
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+    .info-container {
+        width: 50%;
+    }
+}
