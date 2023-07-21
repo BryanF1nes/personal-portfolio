@@ -1,5 +1,6 @@
 import React from 'react'
 import WindowButton from './WindowButton'
+import PortfolioItems from './PortfolioItems'
 
 const Portfolio = ({darkMode}) => {
 const windowUp = () => window.scroll(0, 900)
@@ -13,6 +14,7 @@ const windowDown = () => window.scroll(0, 2900)
             handleWindow={windowUp}
             />
             <h1>Potfolio</h1>
+            <PortfolioItems />
             <WindowButton 
             darkMode={darkMode}
             name="Contact"

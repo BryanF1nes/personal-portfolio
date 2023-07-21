@@ -16,7 +16,7 @@ const Section = ({darkMode}) => {
             />
             <div className="info-container">
                 <h1>More About Me?</h1>
-                <p>Hello there! My name is <strong>Bryan</strong> and I am a self taught <strong>Web Developer!</strong> Not only do I love to code but I enjoy spending time with my family, going to church and playing guitar! </p>
+                <p>Hello there! My name is <strong>Bryan</strong> and I am a self taught <strong>Web Developer!</strong> Not only do I love to code but I enjoy spending time with my wife and son, going to church and playing guitar! </p>
                 <br />
                 <p>Here are some of the languages and tools i've learned so far!</p>
                 <p className="skill-list-info">HTML5, CSS3, JavaScript, Git, React, Node.js, and NPM</p>
