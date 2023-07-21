@@ -22,7 +22,7 @@
   }
   
   .dark {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(5, 14, 21);
     color: white;
   }
   
@@ -33,7 +33,7 @@
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(255, 0, 242); }
+    50% { border-color: rgba(35, 95, 148, 0.65); }
   }
 
   /* Icons */

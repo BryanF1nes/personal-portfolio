@@ -4,7 +4,7 @@ import { FaGithub, FaGoogle, FaLinkedin } from 'react-icons/fa6'
 import WindowButton from './WindowButton'
 
 const Main = ({darkMode}) => {
-  const windowDown = () => window.scroll(0, 1000)
+  const windowDown = () => window.scroll(0, 900)
   return (
     <div className={darkMode ? "main" : "dark main"}>
         <div className="main-container">
