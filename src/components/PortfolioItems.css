@@ -8,6 +8,16 @@
     margin: 100px;
 }
 
+.code-container {
+    padding: 10px;
+}
+
+.live {
+    color: white;
+    background-color: rgb(56, 19, 98);
+    border-radius: 10px;
+}
+
 .item-container img {
     height: 300px;
     width: 300px;

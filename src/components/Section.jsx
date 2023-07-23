@@ -1,7 +1,6 @@
 import React from 'react'
 import './Section.css'
 import WindowButton from './WindowButton'
-import Skills from './Skills'
 
 const Section = ({darkMode}) => {
     const windowUp = () => window.scroll(0, -1000)

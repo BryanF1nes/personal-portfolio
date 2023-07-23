@@ -15,6 +15,7 @@ const windowDown = () => window.scroll(0, 2900)
             />
             <h1>Potfolio</h1>
             <PortfolioItems />
+            <div></div>
             <WindowButton 
             darkMode={darkMode}
             name="Contact"

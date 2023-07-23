@@ -56,11 +56,11 @@
     cursor: pointer;
   }
 
-  a.icon-pack {
+ .icon-pack {
     color: black;
   }
 
-  .dark a.icon-pack {
+  .dark .icon-pack {
     color: white;
   }
 
