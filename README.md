@@ -15,7 +15,7 @@ In this project I got to use a lot of my skills I have picked up from learning R
 <a href="https://webpack.js.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg" width="48" height="48" alt="Webpack" /></a>
   
 ---------------------------
-Last Updated - July 23rd, 2023!
+Last Updated - July 23rd, 2023! Live Link - https://bryanf1nes.github.io/personal-portfolio/
 ---------------------------
 
 Please feel free to reach out to me on Facebook, LinkedIn, Discord, or even GitHub!
