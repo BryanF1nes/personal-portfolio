@@ -9,3 +9,5 @@ html {
   scroll-padding:
     var(--scroll-padding, 5rem);
 }
+
+/* This is for the git push */
