@@ -12,8 +12,8 @@ const Main = ({darkMode}) => {
             <p className="main-p">Where the passion begins!</p>
             <div className="icons">
                 <FaGoogle className="icon-pack" />
-                <a className="icon-pack" href="https://github.com/BryanF1nes" target='_blank'><FaGithub className="icon-pack" /></a>
-                <a className="icon-pack" href="https://www.linkedin.com/in/bryan-fines-a44384270/" target='_blank'><FaLinkedin className="icon-pack"/></a>
+                <a className="icon-pack" href="https://github.com/BryanF1nes" target='_blank' rel="noopener noreferrer"><FaGithub className="icon-pack" /></a>
+                <a className="icon-pack" href="https://www.linkedin.com/in/bryan-fines-a44384270/" target='_blank' rel="noopener noreferrer"><FaLinkedin className="icon-pack"/></a>
             </div>
         </div>
         <WindowButton 
