@@ -26,6 +26,7 @@ function App() {
       <Section darkMode={darkMode} />
       <Portfolio darkMode={darkMode} />
       <Contact darkMode={darkMode} />
+      <h1>Testing Stuff</h1>
     </div>
   );
 }
